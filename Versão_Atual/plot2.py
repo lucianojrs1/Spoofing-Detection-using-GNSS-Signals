@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # --- CONFIGURAÇÃO ---
-ARQUIVO_CSV = 'Spoofing-Detection-using-GNSS-Signals/Testes/dataset_completo_sinais_sistemas.csv'
+ARQUIVO_CSV = 'Versão_Atual/dataset_completo_sinais_sistemas.csv'
 
 # Defina aqui as features "Sinais e Sistemas" que você quer destacar
 features_para_plotar = [
