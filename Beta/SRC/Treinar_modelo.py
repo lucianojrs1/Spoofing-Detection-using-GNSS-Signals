@@ -98,4 +98,4 @@ nome_arquivo_modelo = 'meu_detector_gps.pkl'
 joblib.dump(model, nome_arquivo_modelo)
 
 print(f"\nMODELO SALVO! O arquivo '{nome_arquivo_modelo}' foi criado.")
-print("Agora você pode usar esse arquivo para detectar spoofing em tempo real.")
+print("Agora você pode usar esse arquivo para detectar spoofing em tempo real.") 

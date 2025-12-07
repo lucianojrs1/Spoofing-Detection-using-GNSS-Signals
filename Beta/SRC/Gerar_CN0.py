@@ -11,12 +11,12 @@ import os
 
 # 1. Caminho do arquivo de entrada (NMEA)
 # Mude para o seu arquivo CLEAN na primeira vez, e SPOOF na segunda
-NMEA_FILE = "dados/dadoslimpos/nmea_pvt.nmea"  
+NMEA_FILE = "Dados_GPS/cenario5/nmea_pvt.nmea"  
 # NMEA_FILE = "dados/Cenario 2/nmea_pvt.nmea"
 
 # 2. Nome do arquivo de saída (CSV para a IA)
 # Mude para 'cn0_clean.csv' na primeira vez, e 'cn0_spoof.csv' na segunda
-ARQUIVO_SAIDA = "cn0_clean.csv"
+ARQUIVO_SAIDA = "cn0_ds4.csv"
 # ARQUIVO_SAIDA = "cn0_spoof.csv"
 
 # ==============================================================================
