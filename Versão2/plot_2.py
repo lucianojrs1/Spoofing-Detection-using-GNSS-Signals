@@ -4,7 +4,7 @@ import pandas as pd
 
 # Supondo que você ainda tenha o df_normalized carregado na memória
 # Se não tiver, carregue o CSV novamente:
-df_normalized = pd.read_csv('Spoofing-Detection-using-GNSS-Signals/Versão2/features_normalizadas_com_fft3.csv')
+df_normalized = pd.read_csv('features_brutas_com_fft.csv')
 
 # Vamos plotar APENAS as duas features vencedoras
 features_campeas = ['FFT_Mean', 'Maximo']

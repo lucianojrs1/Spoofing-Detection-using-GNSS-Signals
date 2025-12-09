@@ -7,7 +7,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 
 # --- 1. CARREGAR DADOS ---
-ARQUIVO_CSV = 'Spoofing-Detection-using-GNSS-Signals/Versão2/features_normalizadas_com_fft3.csv'
+ARQUIVO_CSV = 'features_brutas_com_fft.csv'
 
 try:
     df = pd.read_csv(ARQUIVO_CSV)
