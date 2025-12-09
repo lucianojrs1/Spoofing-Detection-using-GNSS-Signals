@@ -2,7 +2,6 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-from scipy.stats import kurtosis, skew
 from scipy.fft import fft
 # from sklearn.preprocessing import StandardScaler <-- Removido, não precisamos mais
 
